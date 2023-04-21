@@ -1,16 +1,13 @@
-# This is a sample Python script.
+# Задача 30 a1, d, n,  an = a1 + (n-1)*d
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+'''
+a1 = int(input("Введите а1: "))
+n = int(input("Введите n: "))
+d = int(input("Введите d: "))
+a = list()
+for i in range(1, n):
+    a.append(a1 + (i - 1) * d)
+print(a)
+'''
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
